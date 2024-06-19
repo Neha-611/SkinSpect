@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkinSpect - Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="./images/ss_icon.png"> <!--change the icon image-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+<body>
+
+  <div class="video-container">
+    <video autoplay muted loop id="background-video">
+      <source src="./images/7565455-hd_2048_1080_25fps.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+  
+  
+  <div class="container" id="container">
+
+    <div class="form-container register">
+      <form >
+        <h1>Register</h1>
+        <div class="social-icons">
+          <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+          <a href="#"><i class='bx bxl-google' ></i></a>
+          <a href="#"><i class='bx bxl-microsoft' ></i></a>
+          <a href="#"><i class='bx bxl-apple' ></i></a>
+        </div>
+          <input id="username" type="text" placeholder="Username">
+          <input id="email" type="email" placeholder="Email">
+          <input id="password" type="password" placeholder="Password">
+          <input type="password" placeholder="Confirm Password">
+          <button onclick="register()">Register</button>
+        
+      </form>
+    </div>
+
+    <div class="form-container login">
+      <form >
+        <h1>Login</h1>
+        <div class="social-icons">
+          <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+          <a href="#"><i class='bx bxl-google' ></i></a>
+          <a href="#"><i class='bx bxl-microsoft' ></i></a>
+          <a href="#"><i class='bx bxl-apple' ></i></a>
+        </div>
+          <input type="text" placeholder="Username">          
+          <input type="password" placeholder="Password">
+          <a href="#">Forgot your password?<br/></a>
+          <button onclick="login()">Login</button>
+        
+      </form>
+    </div>
+
+    <div class="toggle-container">
+      <div class="toggle">
+        <div class="toggle-panel left">
+          <h2>Welcome Back</h2>
+          <p>Log in to your account.</p>
+          <button class="hidden" id="login">Login</button>
+        </div>
+
+        <div class="toggle-panel right">
+          <h2>Welcome to SkinSpect</h2>
+          <p>Register for free.</p>
+          <button class="hidden" id="register">Register</button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+<!-- <script>
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+</script> -->
+
+
+
+
+
+  
+
+  <script src="index.js"></script>
+</body>
+</html>
+
