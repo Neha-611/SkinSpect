@@ -8,8 +8,8 @@ This repository currently contains the **Login Page UI**, the first step in acce
 
 ## 🚀 Project Overview
 
-SkinSpect aims to become a futuristic AI-powered skincare platform designed especially for skin of colour. This repo features the **Login Interface**, designed using:
-- **HTML/CSS/JS** 
+- SkinSpect aims to become a futuristic AI-powered skincare platform designed especially for skin of colour. This repo features the **Login Interface**, designed using **HTML/CSS/JS**.
+- The site is live at: 🔗 [https://neha-611.github.io/SkinSpect/](https://neha-611.github.io/SkinSpect/)
 
 ---
 
